@@ -16,7 +16,7 @@ $radioStations = array(
     "mix_fm_dance"      => "http://91.90.255.111:80/995"
 );
 
-
+//Lists all mp3 files from MUSICPATH directory
 $musicList = array();
 $files = scandir(MUSICPATH, 1);
 foreach($files as $f) {
