@@ -13,9 +13,6 @@ if(isset($_POST['action']) && isset($_POST['value'])){
             break;
         case 'set-music':
         $song = MUSICPATH .escapeshellarg($musicList[$value]['filename']);
-        echo "<h1>Setting MP3</h1>";
-        echo "SONG:".$musicList[$value]['filename']."<br>";
-        echo "FULLPATH: ".$song."<br>";
             $player->lunch($song);
             break;
         case 'stop-player':
