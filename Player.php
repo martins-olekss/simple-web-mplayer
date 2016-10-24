@@ -1,6 +1,5 @@
 <?php
 class Player {
-
     public function lunch($command,$initialVolume = 10) {
         //require_once('config.php');
 
@@ -23,29 +22,4 @@ class Player {
     public function kill() {
         shell_exec("killall mplayer");
     }
-
-    // public function process($get) {
-    //     $action = $get['action'];
-    //     $value = $get['value'];
-
-    //     switch ($action) {
-    //         case 'set-station':                
-    //             $this->lunch($radioStations[$value]);
-    //             break;
-    //         case 'set-music':
-    //             $this->lunch($musicList[$value]);
-    //             break;
-    //         case 'stop-player':
-    //             $this->kill();
-    //             break;
-    //         case 'more-volume':
-    //             $this->control("volume +1");
-    //             break;
-    //         case 'less-volume':
-    //             $this->control("volume -1");
-    //             break;
-    //     }
-    //     //Go back to index file, to lose all of GET variables
-    //     header("Location: /");
-    // }
 }

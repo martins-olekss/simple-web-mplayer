@@ -1,6 +1,5 @@
 <?php
 require_once("config.php");
-//require_once("Player.php");
 require_once("ajaxHandler.php");
 ?>
 <html>
