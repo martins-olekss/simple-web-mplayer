@@ -1,0 +1,17 @@
+div.wrapper.container {
+    margin-top: 10px;
+}
+ul.nav.nav-pills.nav-stacked li a {
+    border: 1px solid #265a88;
+}
+ul.nav.nav-pills.nav-stacked li a {
+    font-size: 18px;
+    overflow: hidden;
+}
+ul.nav.nav-pills.nav-stacked li a.btn:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+.glyphicon.glyphicon-play{
+    float: left;
+}        
