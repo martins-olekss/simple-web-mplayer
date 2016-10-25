@@ -9,11 +9,11 @@ if(isset($_POST['action']) && isset($_POST['value'])){
 
     switch ($action) {
         case 'set-station':               
-            $player->lunch($radioStations[$value]);
+            $player->launch($radioStations[$value]);
             break;
         case 'set-music':
-        $song = MUSICPATH .escapeshellarg($musicList[$value]['filename']);
-            $player->lunch($song);
+			$song = MUSICPATH .escapeshellarg($musicList[$value]['filename']);
+            $player->launch($song);
             break;
         case 'stop-player':
             $player->kill();

@@ -1,6 +1,6 @@
 <?php
 class Player {
-    public function lunch($command,$initialVolume = 10) {
+    public function launch($command,$initialVolume = 10) {
         //Kill all of mplayer processes
         shell_exec("killall mplayer");
         //Create mplayer input file
